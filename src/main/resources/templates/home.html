@@ -1,1 +1,6 @@
 <h1>Olá TreinaWeb!!!</h1>
+<p th:text="${nome}">Elton Fonseca</p>
+<ul>
+  <li th:each="aluno : ${alunos}" th:text="${aluno}"></li>
+</ul>
+<p th:if="${ehProgramador}">A váriavel ehProgramador está como true</p>
